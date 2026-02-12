@@ -9,7 +9,7 @@
 <body class="bg-white text-black antialiased">
     <x-navbar />
     {{-- INICIO DE LA SECCION PRINCIPAL --}}
-        <div class = "flex flex-row min-h-[80vh] justify-between items-center max-w-5xl mx-auto px-8 px-12 pt-3 gap-10">
+        <div class = "flex flex-row min-h-[90vh] justify-between items-center max-w-7xl mx-auto px-8 lg:px-12 pt-10 gap-16">
             <div class="max-w-xl px-3 py-3 rounded-xl">
                 <h1 class="text-4xl font-extrabold">
                      Gestiona tu negocio con <span class="text-[#A63EFB]">Ventix</span>
@@ -145,7 +145,7 @@
             </p>
         </div>
         {{--PLANES--}}
-        <div class="max-w-7xl mx-auto mt-12 grid grid-cols-1 gap-y-2 md:grid-cols-3 gap-16">
+        <div class="max-w-7xl mx-auto mt-20 grid grid-cols-1 gap-y-2 md:grid-cols-3 gap-16">
             <div class="mt-14 mb-4 p-8 gap-2 flex flex-col rounded-xl border border-slate-400">
                 <h3 class="text-xl">Básico</h3>
                 <p>Perfecto para emprendedores y pequeños negocios</p>
@@ -282,5 +282,55 @@
                 </ul>
             </div>
         </div>
+        {{--PRUEBA GRATIS--}}
+        <div class="mt-48 mb-4 p-20 gap-2 max-w-5xl mx-auto flex flex-col justify-center items-center rounded-xl relative border hover:border-white/80 text-white bg-gradient-to-r 
+            from-[#784BFB] via-[#A63EFB] to-[#FA2DF0]">
+            <h2 class="text-xl">¿Listo para transformar tu negocio?</h2>
+            <p class="mt-4 text-center text-xl"> Unete a miles de empresas que ya estan creciendo con Ventix. Comienza tu prueba<br>
+                gratuita de 14 días hoy mismo, sin tarjeta de crédito.</p>
+            <div class="flex justify-center gap-4 mt-8">
+                <a href="#" class="inline-flex gap-2 items-center justify-center bg-white px-8 py-4 group rounded-xl text-[#A63EFB] font-bold text-lg transition-all hover:shadow-xl">
+                    Comienza prueba gratis
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 group-hover:translate-x-2 duration-300">
+                        <path fill-rule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+                <a href="#" class="inline-flex gap-2 items-center justify-center px-8 py-4 rounded-xl text-white font-bold text-lg border-2 border-white/30 transition-all hover:bg-white/10 hover:border-white">
+                Hablar con Ventas
+                </a>
+
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-4 gap-y-4 mt-12">
+                <div class="flex items-center gap-2 text-sm md:text-base">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                    <span>No requiere tarjeta de crédito</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm md:text-base">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                    <span>Cancela cuando quieras</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm md:text-base">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check"><path d="M20 6 9 17l-5-5"/></svg>
+                    <span>Soporte en español</span>
+                </div>
+            </div>
+        </div> 
+        <footer class="bg-slate-950 text-white mt-20 pt-40 pb-32">
+            <div class="max-w-7xl mx-auto px-8 lg:px-12">
+            </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-12 h-12 gap-2 flex items-center justify-center bg-gradient-to-b from-[#784BFB] to-[#FA2DF0] rounded-xl">
+                            <span class="text-3xl text-white ">V</span>
+                        </div>
+                        <span class="text-xl font-bold">Ventix</span>
+                        <p class="mt-4 text-slate-400">
+                        La plataforma SaaS que impulsa el <br>crecimiento de tu negocio con inteligencia.
+                        </p>
+                    </div>
+                    
+        </footer>
 </body>
 </html>
