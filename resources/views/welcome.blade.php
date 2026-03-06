@@ -316,21 +316,86 @@
                 </div>
             </div>
         </div> 
-        <footer class="bg-slate-950 text-white mt-20 pt-40 pb-32">
-            <div class="max-w-7xl mx-auto px-8 lg:px-12">
-            </div>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                </div>
-                    <div class="flex items-center gap-2">
-                        <div class="w-12 h-12 gap-2 flex items-center justify-center bg-gradient-to-b from-[#784BFB] to-[#FA2DF0] rounded-xl">
-                            <span class="text-3xl text-white ">V</span>
+
+        <footer class="bg-slate-950 mt-20 pt-16 pb-16">
+            <div class="max-w-full mx-auto px-8 lg:px-12">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 text-white">
+
+                    <div class="flex flex-col gap-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-12 h-12 gap-2 flex items-center justify-center bg-gradient-to-b from-[#784BFB] to-[#FA2DF0] rounded-xl">
+                                <span class="text-3xl text-white">V</span>
+                            </div>
+                            <span class="text-xl font-bold">Ventix</span>
                         </div>
-                        <span class="text-xl font-bold">Ventix</span>
                         <p class="mt-4 text-slate-400">
                         La plataforma SaaS que impulsa el <br>crecimiento de tu negocio con inteligencia.
                         </p>
+                        <div class="flex gap-4">
+                            <a href="#" class="text-white hover:scale-125 transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </a>
+                            <a href="#" class="text-white hover:scale-125 transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                            </a>
+                            <a href="#" class="text-white hover:scale-125 transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                            </a>
+                            <a href="#" class="text-white hover:scale-125 transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube">
+                                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                            </a>
+                        </div>
                     </div>
-                    
+
+                        <div class="flex flex-col">
+                            <h3 class="font-bold mb-4">Producto</h3>
+                            <ul class="space-y-4">
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Caracteristicas</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Precios</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Seguridad</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Roadmap</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flex flex-col">
+                            <h3 class="font-bold mb-4">Empresa</h3>
+                            <ul class="space-y-4">
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Solo Coderlia</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Blog</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Carreras</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Contacto</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flex flex-col">
+                            <h3 class="font-bold mb-4">Recursos</h3>
+                            <ul class="space-y-4">
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Documentación</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">API</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Centro de Ayuda</a></li>
+                                <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Estado del Servicio</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div> 
+                    <div class="mt-20 pt-8 border-t border-white flex flex-col md:flex-row justify-between items-center gap-4 text-white text-sm">
+                        <p>© 2024 Coderlia. Todos los derechos reservados.</p>
+                        <div class="flex gap-6">
+                            <a href="#" class="hover:text-white">Privacidad</a>
+                            <a href="#" class="hover:text-white">Términos</a>
+                            <a href="#" class="hover:text-white">Cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>   
         </footer>
 </body>
 </html>
